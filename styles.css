@@ -83,7 +83,7 @@ body {
     margin: 0 auto 0 auto;
     background-color: #2e386b;
     width: 360px;
-    height: 285px;
+    height: 260px;
     border-radius: 7px;
     overflow-y: auto;
     padding: 0;
@@ -92,4 +92,19 @@ body {
 .desc p {
     margin: 0;
     padding: 15px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contacts p {
+    margin: 0;
+}
+
+.contacts svg {
+    width: 20px;
 }
