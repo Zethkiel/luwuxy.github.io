@@ -1,7 +1,7 @@
 body {
     background-color: #090c16;
     color: #e6e6e6;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 .profile h1 {
@@ -70,13 +70,11 @@ body {
     padding: 10px 15px;
     margin: auto;
     transition-duration: 0.2s;
-    transition-timing-function: ease;
 }
 
 .categories a:hover {
     background-color: #080a13;
     transition-duration: 0.2s;
-    transition-timing-function: ease;
 }
 
 .desc {
@@ -96,15 +94,22 @@ body {
 
 .contacts {
     display: flex;
-    justify-content: center;
+    margin: 5px 0 0 0;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .contacts p {
-    margin: 0;
+    padding: 0;
+    margin: 0 0 5px 0;
 }
 
 .contacts svg {
-    width: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.contacts a:hover {
+    filter: brightness(75%);
 }
