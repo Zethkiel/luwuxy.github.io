@@ -2,6 +2,7 @@ body {
     background-color: #090c16;
     color: #e6e6e6;
     font-family: 'Manrope', sans-serif;
+    overflow: hidden;
 }
 
 .profile h1 {
@@ -17,17 +18,25 @@ body {
 .main-box {
     display: flex;
     flex-direction: column;
+    opacity: 0;
     height: 600px;
     width: 400px;
     border: 2px solid #324f6b;
     background-color: #101427;
     margin: auto;
     position: absolute;
-    top:0;
+    top: 20px;
     bottom: 0;
     left: 0;
     right: 0;
     border-radius: 30px;
+}
+
+.main-box.active {
+    opacity: 100%;
+    top: 0;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
 }
 
 .profile {
