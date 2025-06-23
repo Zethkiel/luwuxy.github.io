@@ -41,7 +41,6 @@ body {
 .profile {
     display: flex;
     flex-direction: column;
-    padding: 30px 0 30px 0;
     align-items: center;
     height: 32%;
     padding: 20px;
@@ -104,10 +103,22 @@ body {
     padding: 0;
 }
 
-.desc p {
+.desc ul {
+    list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 0;
+}
+
+.desc li {
+    color: #cacaca;
+    margin: 0;
+    padding: 0 15px 0 15px;
     font-size: 0.938rem;}
+
+.desc h3 {
+    margin: 0;
+    padding: 15px 15px 0 15px;
+}
 
 .contacts {
     display: flex;
